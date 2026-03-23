@@ -1,0 +1,30 @@
+name: Postman API Onboarding - Loan Origination API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  onboarding:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+      variables: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: postman-cs/postman-api-onboarding-action@v0
+        with:
+          # ----------------------------------------
+          # CHANGE THESE 4 LINES FOR EACH NEW SERVICE
+          # ----------------------------------------
+          project-name: loan-origination-api
+          domain: lending
+          domain-code: LND
+          spec-url: https://raw.githubusercontent.com/Shahi-J/loan-origination-api/main/specs/loan-origination-api-openapi.yaml
+          # ----------------------------------------
+          environments-json: '["prod","stage"]'
+          env-runtime-urls-json: '{"prod":"https://api.lending.example.com","stage":"https://stage.lending.example.com"}'
+          postman-api-key: ${{ secrets.POSTMAN_API_KEY }}
+          postman-access-token: ${{ secrets.POSTMAN_ACCESS_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          gh-fallback-token: ${{ secrets.GH_FALLBACK_TOKEN }}
