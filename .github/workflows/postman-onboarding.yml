@@ -20,7 +20,7 @@ jobs:
           project-name: loan-origination-api
           domain: lending
           domain-code: LND
-          spec-url: https://raw.githubusercontent.com/Shahi-J/loan-origination-api/main/specs/loan-origination-api-openapi.yaml
+          spec-url: https://raw.githubusercontent.com/postman-cs/cse-exercise/main/specs/loan-origination-api-openapi.yaml
           # ----------------------------------------
           environments-json: '["prod","stage"]'
           env-runtime-urls-json: '{"prod":"https://api.lending.example.com","stage":"https://stage.lending.example.com"}'
