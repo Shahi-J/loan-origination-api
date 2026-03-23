@@ -1,0 +1,53 @@
+type: http
+name: Get application details
+url: '{{baseUrl}}/applications/:applicationId'
+method: GET
+headers:
+  - key: Accept
+    value: application/json
+pathVariables:
+  - key: applicationId
+    value: string
+examples:
+  - response:
+      statusCode: 200
+      statusText: OK
+      body:
+        type: json
+        content: |-
+          {
+            "id": "string",
+            "applicantId": "string",
+            "productType": "string",
+            "requestedAmount": 3136.372260412572,
+            "termMonths": 192,
+            "status": "approved",
+            "createdAt": "1982-01-20T18:30:22.213Z",
+            "updatedAt": "2025-06-03T00:20:41.107Z",
+            "underwritingResult": {
+              "applicationId": "string",
+              "status": "in_progress",
+              "decision": "approved",
+              "riskScore": 68,
+              "evaluatedAt": "2013-12-08T08:32:08.419Z"
+            }
+          }
+      headers:
+        - key: Content-Type
+          value: application/json
+    name: Application details
+  - response:
+      statusCode: 404
+      statusText: Not Found
+      body:
+        type: json
+        content: |-
+          {
+            "code": "string",
+            "message": "string",
+            "details": {}
+          }
+      headers:
+        - key: Content-Type
+          value: application/json
+    name: Application not found
