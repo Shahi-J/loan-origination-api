@@ -9,7 +9,7 @@ jobs:
     permissions:
       actions: write
       contents: write
-      variables: write
+
     steps:
       - uses: actions/checkout@v4
       - uses: postman-cs/postman-api-onboarding-action@v0
