@@ -18,7 +18,7 @@ description: |-
   Contact Support:
    Name: Lending Platform Team
    Email: lending-platform@example.com
-id: caa7fd8e-6f84-4d68-a02b-97696e2847e7
+id: f93e3c55-76d8-446c-a5a9-e7d0fd44417e
 auth:
   type: bearer
   credentials:
@@ -28,6 +28,7 @@ auth:
 variables:
   - key: baseUrl
     value: https://lending-api.example.com/v1
+    type: any
 items:
   - ref: ./applications/folder.yaml
   - ref: ./health/folder.yaml

@@ -91,17 +91,17 @@ examples:
             "id": "string",
             "applicantId": "string",
             "productType": "string",
-            "requestedAmount": 780.029963769322,
-            "termMonths": 6940,
-            "status": "denied",
-            "createdAt": "1974-11-20T11:46:23.262Z",
-            "updatedAt": "2010-12-24T10:49:07.238Z",
+            "requestedAmount": 3259.589814079589,
+            "termMonths": 7241,
+            "status": "withdrawn",
+            "createdAt": "1974-02-20T20:19:03.197Z",
+            "updatedAt": "2005-06-30T15:55:07.830Z",
             "underwritingResult": {
               "applicationId": "string",
               "status": "pending",
-              "decision": "denied",
-              "riskScore": 60,
-              "evaluatedAt": "1999-05-08T14:30:53.782Z"
+              "decision": "approved",
+              "riskScore": 97,
+              "evaluatedAt": "1967-06-04T21:18:46.404Z"
             }
           }
       headers:

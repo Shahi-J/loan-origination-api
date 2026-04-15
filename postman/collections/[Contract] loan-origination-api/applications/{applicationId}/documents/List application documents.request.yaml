@@ -82,7 +82,7 @@ examples:
               "applicationId": "string",
               "documentType": "string",
               "fileName": "string",
-              "uploadedAt": "1959-06-19T07:05:10.622Z",
+              "uploadedAt": "1972-04-17T01:57:48.006Z",
               "verificationStatus": "pending"
             },
             {
@@ -90,7 +90,7 @@ examples:
               "applicationId": "string",
               "documentType": "string",
               "fileName": "string",
-              "uploadedAt": "1993-11-04T00:53:05.187Z",
+              "uploadedAt": "1950-04-07T01:47:07.399Z",
               "verificationStatus": "verified"
             }
           ]
