@@ -12,9 +12,9 @@ localResources:
     - ../specs/loan-origination-api-openapi.yaml
 cloudResources:
   collections:
-    ../postman/collections/[Baseline] loan-origination-api: 50585451-c5b96176-62a8-4c64-ae13-b33ece79c44c
-    ../postman/collections/[Smoke] loan-origination-api: 50585451-f93e3c55-76d8-446c-a5a9-e7d0fd44417e
-    ../postman/collections/[Contract] loan-origination-api: 50585451-fcf0a18e-8cb0-421c-9dc6-1eb4ab2b2d57
+    ../postman/collections/[Baseline] loan-origination-api: 50585451-5795d3e5-b4cc-485a-b060-dd3f3325f5b6
+    ../postman/collections/[Smoke] loan-origination-api: 50585451-dd8b1b35-7dd7-4c17-8d25-42f278ca5bab
+    ../postman/collections/[Contract] loan-origination-api: 50585451-70b63866-6191-4400-88c3-dad4b1b73e69
   environments:
     ../postman/environments/prod.postman_environment.json: 50585451-44d8e8b1-18ea-4ef7-bf5f-55d40808316e
     ../postman/environments/stage.postman_environment.json: 50585451-b7092839-adad-4e2d-b855-cede17682994

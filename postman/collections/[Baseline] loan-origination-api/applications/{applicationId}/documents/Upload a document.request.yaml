@@ -30,7 +30,7 @@ examples:
             "applicationId": "string",
             "documentType": "string",
             "fileName": "string",
-            "uploadedAt": "1948-08-30T11:24:20.215Z",
+            "uploadedAt": "2005-09-20T18:36:50.206Z",
             "verificationStatus": "verified"
           }
       headers:
